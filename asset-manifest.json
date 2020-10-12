@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/fun-box-test-app/static/css/main.77361817.chunk.css",
+    "main.js": "/fun-box-test-app/static/js/main.de19fc52.chunk.js",
+    "main.js.map": "/fun-box-test-app/static/js/main.de19fc52.chunk.js.map",
+    "runtime-main.js": "/fun-box-test-app/static/js/runtime-main.3d2351c3.js",
+    "runtime-main.js.map": "/fun-box-test-app/static/js/runtime-main.3d2351c3.js.map",
+    "static/js/2.6bac440b.chunk.js": "/fun-box-test-app/static/js/2.6bac440b.chunk.js",
+    "static/js/2.6bac440b.chunk.js.map": "/fun-box-test-app/static/js/2.6bac440b.chunk.js.map",
+    "index.html": "/fun-box-test-app/index.html",
+    "precache-manifest.e56be2f56eb72414dbda02cc8486c3cb.js": "/fun-box-test-app/precache-manifest.e56be2f56eb72414dbda02cc8486c3cb.js",
+    "service-worker.js": "/fun-box-test-app/service-worker.js",
+    "static/css/main.77361817.chunk.css.map": "/fun-box-test-app/static/css/main.77361817.chunk.css.map",
+    "static/js/2.6bac440b.chunk.js.LICENSE.txt": "/fun-box-test-app/static/js/2.6bac440b.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/fun-box-test-app/static/media/patern.79d68011.png",
+    "static/media/Card.module.scss": "/fun-box-test-app/static/media/photo_cat.df4d5877.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d2351c3.js",
+    "static/js/2.6bac440b.chunk.js",
+    "static/css/main.77361817.chunk.css",
+    "static/js/main.de19fc52.chunk.js"
+  ]
+}
