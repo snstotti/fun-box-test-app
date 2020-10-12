@@ -1,0 +1,164 @@
+$default-color: #1698D9;
+$hover-color: #2EA8E6;
+$default-selected-color:  #D91667;
+$hover-selected-color: #E52E7A;
+$WHITE: #fff;
+
+*{ box-sizing: border-box;}
+
+.btnDisabled{
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    position: relative;
+}
+
+.cards{
+    font-family: 'Trebuchet MS', sans-serif;
+    position: relative;
+    margin: 40px;
+    cursor: pointer;
+}
+
+.card{
+    border: 4px solid $default-color;
+    border-radius: 12px;
+    width: 320px;
+    height: 480px;
+    overflow: hidden;
+    background: #F2F2F2;
+    background-position: -30px 210px;
+    background-size: 368px;
+    background-image: url(../images/photo_cat.png);
+    background-repeat: no-repeat;
+}
+
+.cardDisabled{
+    pointer-events: none;
+    border: 4px solid #B3B3B3;
+    background-image: linear-gradient(rgba(242,242,242,0.5),rgba(242,242,242,0.5)), url(../images/photo_cat.png);
+}
+.card:hover .portion{
+    background: $hover-color;
+}
+.card:hover{
+    border: 4px solid $hover-color;
+}
+.cardSelected{
+    border: 4px solid $default-selected-color;
+}
+.cardSelected .portionSelected{
+    background-color: $default-selected-color;
+}
+.cardSelected:hover{
+    border: 4px solid $hover-selected-color;
+}
+.cardSelected:hover .portion{
+    background: $hover-selected-color;
+}
+
+.product__description{
+    margin: 24px auto;
+    margin-bottom: 0;
+    width: 218px;
+}
+.descriptionDisabled{
+    color: black;
+    opacity: 0.15;
+}
+
+.title{
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+    margin: 8px 0 ;
+}
+
+.name{
+    font-size: 16px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.taste{
+    font-size: 24px;
+    line-height: 24px;
+   margin-top: 7px;
+}
+
+.bonus{
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+    margin-top: 19px;
+}
+
+.photo_block{
+    display: flex;
+    justify-content: center;
+}
+.photoGradient{
+    background-image:linear-gradient(rgba(242,242,242,0.5),rgba(242,242,242,0.5)) ;
+}
+.photo{
+   width: 368px;
+   margin-top: 49px;
+   
+}
+
+
+
+  
+
+.portion{
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 70%;
+    right: 5%;
+    top: 75.44%;
+    bottom: 8.84%;
+    border-radius: 50%;
+    background-color: $default-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portionDisabled{
+    background-color: #B3B3B3;
+}
+
+.portion span{
+    padding-top: 10px;
+    font-size: 42px;
+    line-height: 22px;
+    color: $WHITE;
+    text-align: center;
+}
+.portion span p{
+    margin-top: 12px;
+    font-size:21px;
+    line-height:18px;
+    color: $WHITE;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    color: $WHITE;
+    font-size: 13px;
+}
+
+.link{
+    display: inline-block;
+    color: #1698D9;
+    border-bottom: 1px dashed #1698D9;
+    width:2.1em;
+}
+.dsc{
+    white-space: normal;
+}
